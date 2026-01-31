@@ -33,7 +33,7 @@ android {
         kotlinCompilerExtensionVersion = "1.5.3"
     }
 
-    packagingOptions {
+    packaging {
         resources {
             excludes += setOf("META-INF/DEPENDENCIES", "META-INF/LICENSE")
         }

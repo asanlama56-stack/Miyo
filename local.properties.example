@@ -1,0 +1,12 @@
+# Local properties for Miyo build
+# Set your Android SDK location here
+# Example: sdk.dir=/home/user/Android/Sdk
+# On macOS: sdk.dir=/Users/user/Library/Android/sdk
+# On Windows: sdk.dir=C:\\Users\\user\\AppData\\Local\\Android\\sdk
+
+# To find your SDK location:
+# - If you have Android Studio installed, it's in the Preferences/Settings > Appearance & Behavior > System Settings > Android SDK
+# - Or set the ANDROID_HOME environment variable and Gradle will use it automatically
+
+# Leave blank if using ANDROID_HOME environment variable
+sdk.dir=
