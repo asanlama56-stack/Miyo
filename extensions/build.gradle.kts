@@ -1,10 +1,5 @@
 plugins {
-    kotlin("jvm")
-}
-
-repositories {
-    mavenCentral()
-    maven("https://jitpack.io")
+    id("org.jetbrains.kotlin.jvm")
 }
 
 dependencies {

@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("org.jetbrains.kotlin.kapt")
 }
 
 android {
@@ -35,7 +36,8 @@ android {
 
     packaging {
         resources {
-            excludes += setOf("META-INF/DEPENDENCIES", "META-INF/LICENSE")
+            excludes.add("META-INF/DEPENDENCIES")
+            excludes.add("META-INF/LICENSE")
         }
     }
 }
