@@ -3,9 +3,6 @@
 /build/
 **/build/
 
-# Gradle Wrapper
-gradle/wrapper/gradle-wrapper.jar
-
 # Android
 *.iml
 .idea/
